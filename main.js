@@ -160,7 +160,7 @@ const experienceData = {
     title: 'Graduate Teaching Associate',
     company: 'San Francisco State University',
     date: 'Aug 2024 – Dec 2024',
-    description: 'Supported student learning through grading and feedback in computer science courses.',
+    description: 'Supported student learning through grading and feedback in Calculus courses.',
     bullets: [
       'Graded coursework and provided constructive feedback',
       'Supported student progress and learning development',
