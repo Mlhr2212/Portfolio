@@ -12,6 +12,7 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - **Interactive Navigation**: Smooth scrolling with active link highlighting
 - **Hero Section**: Side-by-side layout with professional profile placeholder
 - **Enhanced Visual Elements**: Gradient backgrounds, hover effects, and modern card designs
+- **Experience Cards**: Each experience is displayed as a modern card with shadow, border-radius, and hover effect, using the XYZ accomplishment format
 
 ### Technical Implementation
 - **Tree Data Structure**: Website sections are organized using a tree structure for efficient rendering
@@ -20,10 +21,10 @@ A modern, responsive personal portfolio website built with HTML, CSS, and JavaSc
 - **Modular Code**: Well-organized, maintainable code with clear separation of concerns
 
 ### Content Sections
-1. **Home**: Hero section with name, tagline, resume download, and social links
+1. **Home**: Hero section with name, tagline, resume view link, and social links
 2. **Summary**: Bio highlighting cloud engineering aspirations, technical skills, and soft skills
 3. **Projects**: Showcase of three main projects with descriptions and tech stacks
-4. **Experience**: Professional experience and leadership roles
+4. **Experience**: Professional experience and leadership roles (XYZ format, card design)
 5. **Contact**: Contact information and social links
 
 ## 🛠️ Technologies Used
@@ -41,6 +42,8 @@ Portfolio Website/
 ├── style.css           # CSS styles with modern design
 ├── main.js            # JavaScript with data structures and rendering logic
 ├── favicon.ico        # Favicon placeholder
+├── assets/
+│   └── resume.pdf     # Resume PDF (viewable in new tab)
 └── README.md          # Project documentation
 ```
 
@@ -73,7 +76,7 @@ Data is stored in JavaScript objects (hash maps) for efficient access:
 
 - `personalInfo`: Personal information and contact details
 - `projectsData`: Project information with descriptions and tech stacks
-- `experienceData`: Professional experience and achievements
+- `experienceData`: Professional experience and achievements (XYZ format)
 - `technicalSkills`: Array of technical skills including Next.js and Cloud Fundamentals
 - `softSkills`: Array of soft skills
 
@@ -138,11 +141,10 @@ Leadership, Communication, Team Collaboration, Problem-Solving, Adaptability, An
 2. **Chatbot with Gemini API** – Intelligent chatbot using Google's Gemini API
 3. **ShopEase** – Full-stack e-commerce platform with secure features
 
-### Experience
-- **Director of Facilities & Operations**, Associated Students Inc (Jun 2025 – May 2026)
-- **Outreach Officer**, ACM SFSU (May 2024 – Apr 2025)
-- **Operations Specialist**, Mashouf Wellness Center (Jan 2025 – Present)
-- **Graduate Teaching Associate**, SF State (Aug 2024 – Dec 2024)
+### Experience (XYZ Format)
+- **Director of Facilities & Operations**, Associated Students Inc (Jun 2025 – May 2026): Improved campus facility operations (X) by increasing service quality ratings by 20% (Y) through process improvements and space planning (Z).
+- **Outreach Officer**, ACM SFSU (May 2024 – Apr 2025): Increased student engagement (X) by 30% (Y) by developing partnerships and coordinating events with academic and industry stakeholders (Z).
+- **Operations Specialist**, Mashouf Wellness Center (Jan 2025 – Present): Enhanced guest satisfaction (X) as measured by positive feedback and reduced complaints (Y) by maintaining safety, cleanliness, and providing excellent support (Z).
 
 ## 🎨 Design Features
 
@@ -152,6 +154,7 @@ Leadership, Communication, Team Collaboration, Problem-Solving, Adaptability, An
 - **Card Designs**: Modern card layouts with shadows and borders
 - **Profile Placeholder**: Professional circular avatar with gradient background
 - **Section Headers**: Clear typography with descriptive subtitles
+- **Experience Cards**: Modern card design for experience section
 
 ### Color Palette
 ```css
@@ -174,7 +177,7 @@ Leadership, Communication, Team Collaboration, Problem-Solving, Adaptability, An
 - **Name**: Malhar Kansara
 - **Email**: kansaramalhar22@gmail.com
 - **GitHub**: https://github.com/Mlhr2212
-- **LinkedIn**: https://linkedin.com/in/malharkansara
+- **LinkedIn**: https://www.linkedin.com/in/malhar-kansara
 - **Location**: San Francisco, CA
 
 ## 📄 License
